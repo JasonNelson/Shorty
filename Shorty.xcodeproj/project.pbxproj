@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A7C31271F6908D90082F7CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A7C31251F6908D90082F7CE /* Main.storyboard */; };
 		5AE2EAF41F68D7F700DEBBC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE2EAF31F68D7F700DEBBC3 /* AppDelegate.swift */; };
 		5AE2EAF61F68D7F700DEBBC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE2EAF51F68D7F700DEBBC3 /* ViewController.swift */; };
 		5AE2EAF81F68D7F700DEBBC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AE2EAF71F68D7F700DEBBC3 /* Assets.xcassets */; };
-		5AE2EAFB1F68D7F700DEBBC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AE2EAF91F68D7F700DEBBC3 /* Main.storyboard */; };
 		5AE2EB061F68D7F700DEBBC3 /* ShortyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE2EB051F68D7F700DEBBC3 /* ShortyTests.swift */; };
 		5AE2EB111F68D7F700DEBBC3 /* ShortyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE2EB101F68D7F700DEBBC3 /* ShortyUITests.swift */; };
 /* End PBXBuildFile section */
@@ -33,11 +33,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A7C31261F6908D90082F7CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5AE2EAF01F68D7F700DEBBC3 /* Shorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE2EAF31F68D7F700DEBBC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AE2EAF51F68D7F700DEBBC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5AE2EAF71F68D7F700DEBBC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5AE2EAFA1F68D7F700DEBBC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5AE2EAFC1F68D7F700DEBBC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AE2EB011F68D7F700DEBBC3 /* ShortyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShortyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE2EB051F68D7F700DEBBC3 /* ShortyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortyTests.swift; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 				5AE2EAF31F68D7F700DEBBC3 /* AppDelegate.swift */,
 				5AE2EAF51F68D7F700DEBBC3 /* ViewController.swift */,
 				5AE2EAF71F68D7F700DEBBC3 /* Assets.xcassets */,
-				5AE2EAF91F68D7F700DEBBC3 /* Main.storyboard */,
+				5A7C31251F6908D90082F7CE /* Main.storyboard */,
 				5AE2EAFC1F68D7F700DEBBC3 /* Info.plist */,
 			);
 			path = Shorty;
@@ -230,7 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AE2EAF81F68D7F700DEBBC3 /* Assets.xcassets in Resources */,
-				5AE2EAFB1F68D7F700DEBBC3 /* Main.storyboard in Resources */,
+				5A7C31271F6908D90082F7CE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,10 +292,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5AE2EAF91F68D7F700DEBBC3 /* Main.storyboard */ = {
+		5A7C31251F6908D90082F7CE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5AE2EAFA1F68D7F700DEBBC3 /* Base */,
+				5A7C31261F6908D90082F7CE /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -498,6 +498,7 @@
 				5AE2EB171F68D7F700DEBBC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5AE2EB181F68D7F700DEBBC3 /* Build configuration list for PBXNativeTarget "ShortyTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +507,7 @@
 				5AE2EB1A1F68D7F700DEBBC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5AE2EB1B1F68D7F700DEBBC3 /* Build configuration list for PBXNativeTarget "ShortyUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +516,7 @@
 				5AE2EB1D1F68D7F700DEBBC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
